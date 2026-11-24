@@ -1,0 +1,15 @@
+name: DillyAwardsArena
+version: 1.0.0
+main: com.dillyawards.arena.DillyAwardsArena
+api-version: '1.21'
+author: Dilly
+description: Builds and manages the Dilly Awards ceremony arena.
+commands:
+  awards:
+    description: Dilly Awards arena controls
+    usage: /awards <build|clear|help>
+    permission: dillyawards.admin
+permissions:
+  dillyawards.admin:
+    description: Allows building and clearing the awards arena
+    default: op
